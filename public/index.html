@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>GastroSense AI — Cognitive Flavor Architecture & Molecular Pairing OS</title>
+	<meta name="description" content="Avant-garde culinary intelligence engine for Michelin chefs and food innovators. Foodpairing volatile chemistry, 6-axis organoleptic radar, and autonomous recipe synthesis.">
+	<link rel="canonical" href="https://gastrosense.ai/">
+	<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+	<link rel="manifest" href="/manifest.json">
+	<meta name="theme-color" content="#e5a950">
+
+	<!-- OpenGraph Metadata -->
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="GastroSense AI — Cognitive Flavor Architecture OS">
+	<meta property="og:description" content="AI molecular pairing science, sensory organoleptic balance, and avant-garde culinary composition.">
+	<meta property="og:url" content="https://gastrosense.ai/">
+	<meta property="og:image" content="https://gastrosense.ai/favicon.svg">
+
+	<!-- Twitter Card Metadata -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="GastroSense AI — Cognitive Flavor Architecture OS">
+	<meta name="twitter:description" content="Molecular foodpairing and organoleptic sensory synthesis platform.">
+	<meta name="twitter:image" content="https://gastrosense.ai/favicon.svg">
+
+	<!-- Schema.org JSON-LD Structured Data for AEO & SEO -->
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@graph": [
+			{
+				"@type": "SoftwareApplication",
+				"@id": "https://gastrosense.ai/#software",
+				"name": "GastroSense AI",
+				"applicationCategory": "DesignApplication",
+				"operatingSystem": "All",
+				"offers": {
+					"@type": "Offer",
+					"price": "0.00",
+					"priceCurrency": "USD"
+				},
+				"description": "Enterprise culinary intelligence platform utilizing foodpairing hypothesis and molecular aroma science."
+			},
+			{
+				"@type": "Organization",
+				"@id": "https://gastrosense.ai/#organization",
+				"name": "GastroSense Labs",
+				"url": "https://gastrosense.ai",
+				"logo": "https://gastrosense.ai/favicon.svg"
+			}
+		]
+	}
+	</script>
+
+	<link rel="stylesheet" href="/styles/main.css">
+</head>
+<body>
+	<header class="app-header" role="banner">
+		<div class="brand-container">
+			<img src="/favicon.svg" alt="GastroSense Logo" class="brand-logo" width="38" height="38">
+			<h1 class="brand-title">GastroSense AI</h1>
+			<span class="brand-badge">v0.1.0 MVP</span>
+		</div>
+		<div class="header-actions">
+			<button id="btnSynthesize" class="control-btn" aria-label="Synthesize avant-garde dish">
+				✨ Synthesize Dish
+			</button>
+			<span class="kbd-shortcut" title="Press Ctrl+K or Cmd+K to open Command Palette">Ctrl + K</span>
+		</div>
+	</header>
+
+	<nav class="app-nav" role="navigation" aria-label="Primary Navigation">
+		<button class="nav-tab active" data-view="network" aria-controls="networkView">
+			🧬 Molecular Aroma Network
+		</button>
+		<button class="nav-tab" data-view="plating" aria-controls="platingView">
+			🎨 Slate Plating Studio
+		</button>
+	</nav>
+
+	<main class="workspace-main" role="main">
+		<!-- Left Sidebar: Ingredients Selection Drawer -->
+		<aside class="card-panel" aria-label="Ingredients Catalog">
+			<div class="panel-header">
+				<h2 class="panel-title">🌿 Flavor Database</h2>
+				<span class="ing-cat">Foodpairing Volatiles</span>
+			</div>
+			<div id="ingredientList" class="ingredient-list" role="group" aria-label="Selectable Ingredients"></div>
+		</aside>
+
+		<!-- Center Viewport: Interactive Canvases & Recipe Cards -->
+		<section class="center-viewport" aria-label="Culinary Canvas & Recipe Architect">
+			<article id="networkView" class="canvas-container" aria-label="Molecular Aroma Network Visualizer">
+				<div class="canvas-controls">
+					<span class="control-btn" style="pointer-events: none;">Spring Physics Active</span>
+				</div>
+				<canvas id="graphCanvas" class="canvas-canvas" width="600" height="380"></canvas>
+			</article>
+
+			<article id="platingView" class="canvas-container" style="display: none;" aria-label="Slate Plating Studio">
+				<div class="canvas-controls">
+					<button id="btnToggleSpiral" class="control-btn" aria-label="Toggle Golden Ratio Spiral Overlay">
+						🌀 Golden Ratio Spiral
+					</button>
+				</div>
+				<canvas id="platingCanvas" class="canvas-canvas" width="600" height="380"></canvas>
+			</article>
+
+			<article class="recipe-synthesis-card" aria-label="Synthesized Avant-Garde Dish Formulation">
+				<h3 id="recipeTitle" class="recipe-title">Composition of Black Truffle & Caviar</h3>
+				<p id="recipeConcept" class="recipe-narrative">Synthesizing organoleptic resonance across volatile aromatic compounds...</p>
+				<div class="tech-grid">
+					<div class="tech-item">
+						<div class="tech-label">Molecular Technique</div>
+						<div id="techName" class="tech-val">Reverse Spherification</div>
+					</div>
+					<div class="tech-item">
+						<div class="tech-label">Thermal Precision</div>
+						<div id="techTemp" class="tech-val">Ambient (20°C)</div>
+					</div>
+					<div class="tech-item">
+						<div class="tech-label">Neuro-Sommelier Pairing</div>
+						<div id="techWine" class="tech-val">Blanc de Blancs Grand Cru Champagne 2012</div>
+					</div>
+				</div>
+			</article>
+		</section>
+
+		<!-- Right Sidebar: Sensory Radar & Kitchen Economics -->
+		<aside class="analytics-sidebar" aria-label="Sensory Analytics & Unit Economics">
+			<div class="card-panel">
+				<div class="panel-header">
+					<h2 class="panel-title">🕸️ Organoleptic Hexagon</h2>
+				</div>
+				<div id="radarContainer" class="radar-wrapper" aria-label="6-Axis Sensory Radar"></div>
+				<div class="metrics-row">
+					<span class="metric-label">Harmonic Balance</span>
+					<span id="metricHarmonicScore" class="metric-value">-- / 100</span>
+				</div>
+				<div class="metrics-row">
+					<span class="metric-label">Palate Fatigue</span>
+					<span id="metricPalateFatigue" class="metric-value">Equilibrated</span>
+				</div>
+			</div>
+
+			<div class="card-panel">
+				<div class="panel-header">
+					<h2 class="panel-title">🛡️ EU 14 Allergens</h2>
+				</div>
+				<div id="allergenTags" class="allergen-tags" aria-label="Detected Food Allergens"></div>
+			</div>
+
+			<div class="card-panel">
+				<div class="panel-header">
+					<h2 class="panel-title">📊 Kitchen Unit Economics</h2>
+				</div>
+				<div class="metrics-row">
+					<span class="metric-label">Portion Cost (w/ waste)</span>
+					<span id="metricPortionCost" class="metric-value">€0.00</span>
+				</div>
+				<div class="metrics-row">
+					<span class="metric-label">Suggested Price (28% Margin)</span>
+					<span id="metricMenuPrice" class="metric-value">€0.00</span>
+				</div>
+				<div class="metrics-row">
+					<span class="metric-label">Matrix Classification</span>
+					<span id="metricMenuCategory" class="metric-value">--</span>
+				</div>
+			</div>
+		</aside>
+	</main>
+
+	<footer class="app-footer" role="contentinfo">
+		<div>
+			<strong>GastroSense AI</strong> &copy; 2026 GastroSense Labs. Engineered for avant-garde gastronomy.
+		</div>
+		<nav class="footer-links" aria-label="Footer Links">
+			<a href="#networkView">Aroma Network</a>
+			<a href="#platingView">Plating Studio</a>
+			<a href="https://github.com/ClaudioCeppi83/gastrosense-ai" target="_blank" rel="noopener noreferrer">GitHub v0.1.0</a>
+		</nav>
+	</footer>
+
+	<script type="module" src="/js/app.js"></script>
+</body>
+</html>

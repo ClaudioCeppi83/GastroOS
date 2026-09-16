@@ -1,0 +1,22 @@
+{
+	"name": "gastrosense-ai",
+	"version": "0.1.0",
+	"description": "Cognitive Flavor Architecture & Molecular Pairing Intelligence OS",
+	"type": "module",
+	"main": "src/js/app.js",
+	"scripts": {
+		"test": "node --test tests/*.test.js",
+		"start": "npx -y serve public -l 3000",
+		"check-style": "node scripts/check-style.js"
+	},
+	"keywords": [
+		"foodpairing",
+		"molecular-gastronomy",
+		"ai-flavor-intelligence",
+		"culinary-science",
+		"gemini-api",
+		"firebase"
+	],
+	"author": "Claudio Ceppi",
+	"license": "MIT"
+}

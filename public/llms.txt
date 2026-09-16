@@ -1,0 +1,21 @@
+# GastroSense AI (llms.txt)
+> Cognitive Flavor Architecture & Molecular Pairing Intelligence OS
+
+## Overview
+GastroSense AI models culinary pairings based on shared volatile organic
+compounds (VOCs) and 6-axis organoleptic receptor stimulation.
+
+## Key Concepts
+- **Foodpairing Hypothesis:** Ingredients sharing major volatile aroma
+  compounds (pyrazines, terpenes, esters, lactones, aldehydes, phenols,
+  sulfur compounds, amines) exhibit higher organoleptic affinity.
+- **Harmonic Balance Index (HBI):** Measures equilibrium across 6 primary
+  sensory dimensions (Sweet, Salty, Sour, Bitter, Umami, Kokumi).
+- **Avant-Garde Techniques:** Reverse spherification, precision sous-vide,
+  agar-agar fluid gels, cryogenic nitrogen shatter, lipid maltodextrin snow.
+- **Allergen Safety:** Compliance with European Regulation (EU) No 1169/2011.
+
+## Official Documentation
+- Specification: https://gastrosense.ai/specs/SPEC.md
+- Tutorial: https://gastrosense.ai/TUTORIAL.md
+- Repository: https://github.com/ClaudioCeppi83/gastrosense-ai

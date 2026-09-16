@@ -1,0 +1,16 @@
+{
+	"name": "GastroSense AI",
+	"short_name": "GastroSense",
+	"description": "Cognitive Flavor Architecture & Molecular Pairing Intelligence OS",
+	"start_url": "/",
+	"display": "standalone",
+	"background_color": "#0a0b0e",
+	"theme_color": "#e5a950",
+	"icons": [
+		{
+			"src": "/favicon.svg",
+			"sizes": "any",
+			"type": "image/svg+xml"
+		}
+	]
+}
