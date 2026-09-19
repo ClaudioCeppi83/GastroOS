@@ -1,4 +1,4 @@
-# 🧬 GastroSense AI — Cognitive Flavor Architecture OS
+# 🧬 GastroOS — Cognitive Flavor Architecture & Sommelier Intelligence OS
 
 [![SemVer](https://img.shields.io/badge/version-0.1.0-gold.svg)](https://semver.org)
 [![Tests](https://img.shields.io/badge/tests-17%20passed%20%7C%20100%25-brightgreen.svg)](https://github.com/ClaudioCeppi83/gastrosense-ai)
@@ -12,11 +12,11 @@
 ---
 
 ## 🌟 Overview
-**GastroSense AI** is a state-of-the-art digital culinary operating system that
+**GastroOS** is a state-of-the-art digital culinary operating system that
 bridges volatile aroma chemistry, organoleptic receptor modeling, automated
 safety compliance, and haute cuisine aesthetics.
 
-Rather than guessing ingredient combinations, GastroSense AI evaluates
+Rather than guessing ingredient combinations, GastroOS evaluates
 **shared volatile organic compounds (VOCs)** using cosine vector affinity,
 computes dynamic 6-axis taste equilibria to prevent palate fatigue, projects
 kitchen unit economics, and provides an interactive digital plating canvas
